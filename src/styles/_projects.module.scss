@@ -1,0 +1,14 @@
+@use "variables.module" as *;
+@use "mixins" as *;
+
+.main {
+    @include sp_layout();
+}
+
+.flex_item_opening {
+    @include sp_opening_tag();
+}
+
+.flex_item_closing {
+    @include sp_closing_tag();
+}

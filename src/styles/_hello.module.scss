@@ -1,0 +1,30 @@
+// @import "./variables.module";
+@use "variables.module" as *;
+
+.flex_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    // border: orange 1px solid;
+    align-items: flex-start;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.flex_item_content h1 {
+    margin: 11vh 0 0 10vw;
+    font-size: 3.8rem;
+    // border: $test_border;
+    width: 80vw;
+    min-height: 80vh;
+}
+
+.name_spacing {
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+}
+
+.span {
+    font-size: 3.8rem;
+    color: $yellow-color;
+}

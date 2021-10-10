@@ -1,0 +1,62 @@
+// @import "./variables.module";
+@use "variables.module" as *;
+@use "mixins" as *;
+
+.main {
+    @include sp_layout();
+}
+
+.flex_item_opening {
+    @include sp_opening_tag();
+}
+
+.flex_item_closing {
+    @include sp_closing_tag();
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    // background-color: pink;
+}
+
+input,
+textarea {
+    width: 50vw;
+    margin-bottom: 1vh;
+    min-height: 2vh;
+}
+
+textarea {
+    min-height: 6vh;
+}
+
+// button {
+//     width: 10vw;
+//     align-self: flex-end;
+//     margin-right: 20vw;
+//     // box-shadow: 2px 2px 5px black;
+//     background: none;
+//     color: #d5ced9;
+//     font-weight: bold;
+// }
+
+button {
+    // line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    width: 10vw;
+    align-self: flex-end;
+    margin-right: 20vw;
+    // box-shadow: 2px 2px 5px black;
+    // background: none;
+    // color: #d5ced9;
+    // font-weight: bold;
+    // color: #fff;
+    // transition: all 0.3s;
+    // position: relative;
+}

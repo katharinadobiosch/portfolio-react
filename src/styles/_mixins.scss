@@ -1,0 +1,60 @@
+@use "variables.module" as *;
+
+@mixin sp_layout() {
+    .flex_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        // border: orange 5px solid;
+        align-items: flex-start;
+        width: 100vw;
+        min-height: 100vh;
+        z-index: 10;
+        // background-color: green;
+    }
+
+    .flex_item_opening {
+        margin: 8vh 0 0 10vw;
+        font-size: 1rem;
+        border: $test_border;
+    }
+
+    .flex_item_closing {
+        margin: 3vh 0 0 10vw;
+        font-size: 1rem;
+        // border: $test_border;
+    }
+
+    .flex_item_content {
+        margin: 3vh 0 0 20vw;
+        font-size: 2rem;
+        border: $test_border;
+        width: 70vw;
+        // min-height: 50vh;
+        height: auto;
+    }
+}
+
+@mixin sp_opening_tag() {
+    .span_pink {
+        font-size: 1rem;
+        color: $pink-color;
+    }
+
+    .span_yellow {
+        font-size: 1rem;
+        color: $yellow-color;
+    }
+
+    .span_green {
+        font-size: 1rem;
+        color: $green-color;
+    }
+}
+
+@mixin sp_closing_tag() {
+    .span_pink {
+        font-size: 1rem;
+        color: $pink-color;
+    }
+}
