@@ -14,14 +14,15 @@
 }
 
 .menuToggle .a {
-    text-decoration-style: wavy;
-    color: $orange-color;
+    text-decoration: none;
+    // color: $orange-color;
 
     transition: color 0.3s ease;
 }
 
 .menuToggle a:hover {
-    color: tomato;
+    text-decoration-style: wavy;
+    color: $orange-color;
 }
 
 .menuToggle .input {
@@ -61,11 +62,11 @@
         background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
 }
 
-.menuToggle span:first-child {
+.menuToggle .span:first-child {
     transform-origin: 0% 0%;
 }
 
-.menuToggle span:nth-last-child(2) {
+.menuToggle .span:nth-last-child(2) {
     transform-origin: 0% 100%;
 }
 
@@ -73,7 +74,7 @@
  * Transform all the slices of hamburger
  * into a crossmark.
  */
-.menuToggle input:checked ~ span {
+.menuToggle .input:checked ~ .span {
     opacity: 1;
     transform: rotate(45deg) translate(-2px, -1px);
     background: $yellow-color;
@@ -82,7 +83,7 @@
 /*
  * But let's hide the middle one.
  */
-.menuToggle input:checked ~ span:nth-last-child(3) {
+.menuToggle .input:checked ~ .span:nth-last-child(3) {
     opacity: 0;
     transform: rotate(0deg) scale(0.2, 0.2);
 }
@@ -90,7 +91,7 @@
 /*
  * Oh yeah and the last one should go the other direction
  */
-.menuToggle input:checked ~ span:nth-last-child(2) {
+.menuToggle .input:checked ~ .span:nth-last-child(2) {
     transform: rotate(-45deg) translate(0, -1px);
 }
 
@@ -117,7 +118,7 @@
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
 
-.menu li {
+.menu .li {
     padding: 10px 0;
     font-size: 22px;
     color: $pink-color;
@@ -129,6 +130,6 @@
 /*
  * And let's slide it in from the left
  */
-.menuToggle input:checked ~ ul {
+.menuToggle .input:checked ~ .ul {
     transform: none;
 }
