@@ -13,18 +13,18 @@
     user-select: none;
 }
 
-.menuToggle {
-    text-decoration: none;
-    color: #232323;
+.menuToggle .a {
+    text-decoration-style: wavy;
+    color: $orange-color;
 
     transition: color 0.3s ease;
 }
 
-.menuToggle li:hover {
+.menuToggle a:hover {
     color: tomato;
 }
 
-.menuToggle input {
+.menuToggle .input {
     display: block;
     width: 40px;
     height: 32px;
@@ -43,14 +43,14 @@
 /*
  * Just a quick hamburger
  */
-.menuToggle span {
+.menuToggle .span {
     display: block;
     width: 33px;
     height: 4px;
     margin-bottom: 5px;
     position: relative;
 
-    background: #cdcdcd;
+    background: $font-color;
     border-radius: 3px;
 
     z-index: 1;
@@ -76,7 +76,7 @@
 .menuToggle input:checked ~ span {
     opacity: 1;
     transform: rotate(45deg) translate(-2px, -1px);
-    background: #232323;
+    background: $yellow-color;
 }
 
 /*
@@ -88,7 +88,7 @@
 }
 
 /*
- * Ohyeah and the last one should go the other direction
+ * Oh yeah and the last one should go the other direction
  */
 .menuToggle input:checked ~ span:nth-last-child(2) {
     transform: rotate(-45deg) translate(0, -1px);
@@ -103,10 +103,10 @@
     width: 100vw;
     height: 100vh;
     margin: -7vh 0 0 -88vw;
-    padding: 50px;
+    padding: 10vh 10vw 10vh 5vw;
     // padding-top: 125px;
 
-    background: yellow;
+    background: rgba(0, 0, 0, 0.8);
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
     /* to stop flickering of text in safari */
@@ -120,6 +120,10 @@
 .menu li {
     padding: 10px 0;
     font-size: 22px;
+    color: $pink-color;
+    font-weight: bold;
+    font-style: italic;
+    text-align: end;
 }
 
 /*

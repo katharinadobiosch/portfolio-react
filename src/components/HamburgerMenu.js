@@ -20,10 +20,18 @@ const HamburgerMenu = () => {
     but hey, it's pure CSS magic. */}
 
                     <ul className={`${styles.menu} ${styles.ul}`}>
-                        <li className={styles.li}>Home</li>
-                        <li className={styles.li}>About</li>
-                        <li className={styles.li}>Info</li>
-                        <li className={styles.li}>Contact</li>
+                        <a className={styles.a} href="#">
+                            <li className={styles.li}>::about</li>
+                        </a>
+                        <a className={styles.a} href="#">
+                            <li className={styles.li}>::skills</li>
+                        </a>
+                        <a className={styles.a} href="#">
+                            <li className={styles.li}>::projects</li>
+                        </a>
+                        <a className={styles.a} href="#">
+                            <li className={styles.li}>::contact</li>
+                        </a>
                     </ul>
                 </div>
             </nav>
