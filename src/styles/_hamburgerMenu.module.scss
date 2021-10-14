@@ -1,14 +1,11 @@
 @use "variables.module" as *;
 @use "mixins" as *;
 
-.nav {
-    border: $test_border;
-}
-
 .menuToggle {
     display: block;
     position: relative;
-    margin-top: 0.5vh;
+    top: 3px;
+    left: 0px;
 
     z-index: 1;
 
@@ -16,33 +13,28 @@
     user-select: none;
 }
 
-.menuToggle .a {
-    text-decoration-style: wavy;
-    color: $orange-color;
+.menuToggle {
+    text-decoration: none;
+    color: #232323;
 
     transition: color 0.3s ease;
 }
 
-.menuToggle .a:hover {
+.menuToggle li:hover {
     color: tomato;
 }
 
-.menuToggle .input {
-    // margin-top: 1vh;
-
+.menuToggle input {
     display: block;
-    // display: flex;
-    // flex-direction: row;
-    // justify-content: flex-end;
-    width: 11vw;
-    height: 10vh;
+    width: 40px;
+    height: 32px;
     position: absolute;
-    margin-top: -4vh;
-    margin-left: -1.5vw;
+    top: -7px;
+    left: -5px;
 
     cursor: pointer;
 
-    opacity: 0; /* hide this => change back to 0 */
+    opacity: 0; /* hide this */
     z-index: 2; /* and place it over the hamburger */
 
     -webkit-touch-callout: none;
@@ -51,15 +43,14 @@
 /*
  * Just a quick hamburger
  */
-.menuToggle .span {
+.menuToggle span {
     display: block;
-    // float: right;
     width: 33px;
     height: 4px;
     margin-bottom: 5px;
     position: relative;
 
-    background: $font-color;
+    background: #cdcdcd;
     border-radius: 3px;
 
     z-index: 1;
@@ -70,27 +61,28 @@
         background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
 }
 
-.menuToggle .span:first-child {
+.menuToggle span:first-child {
     transform-origin: 0% 0%;
 }
 
-.menuToggle .span:nth-last-child(2) {
+.menuToggle span:nth-last-child(2) {
     transform-origin: 0% 100%;
 }
 
 /* 
-TRANSFORM ALL THE SLICES OF HAMBURGER INTO A CROSSMARK
+ * Transform all the slices of hamburger
+ * into a crossmark.
  */
-.menuToggle .input:checked ~ .span {
+.menuToggle input:checked ~ span {
     opacity: 1;
     transform: rotate(45deg) translate(-2px, -1px);
-    background: $yellow-color;
+    background: #232323;
 }
 
 /*
- HIDE THE MIDDLE ONE
+ * But let's hide the middle one.
  */
-.menuToggle .input:checked ~ .span:nth-last-child(3) {
+.menuToggle input:checked ~ span:nth-last-child(3) {
     opacity: 0;
     transform: rotate(0deg) scale(0.2, 0.2);
 }
@@ -98,12 +90,11 @@ TRANSFORM ALL THE SLICES OF HAMBURGER INTO A CROSSMARK
 /*
  * Ohyeah and the last one should go the other direction
  */
-.menuToggle .input:checked ~ .span:nth-last-child(2) {
+.menuToggle input:checked ~ span:nth-last-child(2) {
     transform: rotate(-45deg) translate(0, -1px);
 }
 
 /*
-
  * Make this absolute positioned
  * at the top left of the screen
  */
@@ -111,15 +102,11 @@ TRANSFORM ALL THE SLICES OF HAMBURGER INTO A CROSSMARK
     position: absolute;
     width: 100vw;
     height: 100vh;
+    margin: -7vh 0 0 -88vw;
+    padding: 50px;
+    // padding-top: 125px;
 
-    // !! STYLE MARGIN TO THE CORRECT POSITION
-    margin: -7.5vh 0vw 0vh 20vw;
-    padding: 10vh 10vw 10vh 5vw;
-
-    // background: pink;
-    // opacity: 0.8;
-    background: rgba(0, 0, 0, 0.8);
-
+    background: yellow;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
     /* to stop flickering of text in safari */
@@ -130,18 +117,14 @@ TRANSFORM ALL THE SLICES OF HAMBURGER INTO A CROSSMARK
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
 
-.menu .li {
+.menu li {
     padding: 10px 0;
     font-size: 22px;
-    color: $pink-color;
-    font-weight: bold;
-    font-style: italic;
-    text-align: end;
 }
 
 /*
-SLIDE IT IN FROM THE LEFT
+ * And let's slide it in from the left
  */
-.menuToggle .input:checked ~ .ul {
+.menuToggle input:checked ~ ul {
     transform: none;
 }
