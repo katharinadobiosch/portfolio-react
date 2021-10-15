@@ -5,7 +5,7 @@ import Header from "./Header";
 const About = () => {
     return (
         <>
-            <div className={styles.main}>
+            <div id="about" className={styles.main}>
                 <Header />
                 <div className={styles.flex_container}>
                     <div className={styles.flex_item_opening}>

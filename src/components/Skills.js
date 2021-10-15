@@ -3,7 +3,7 @@ import styles from "../styles/_skills.module.scss";
 const Skills = () => {
     return (
         <>
-            <div className={styles.main}>
+            <div id="skills" className={styles.main}>
                 <div className={styles.flex_container}>
                     <div className={styles.flex_item_opening}>
                         <span className={styles.span_pink}>&lt;div</span>{" "}
@@ -12,7 +12,7 @@ const Skills = () => {
                         <span className={styles.span_pink}>&gt;</span>
                     </div>
                     <div className={styles.flex_item_content}>
-                        <form>HERE COMES THE SKILLS SECTION</form>
+                        <div>HERE COMES THE SKILLS SECTION</div>
                     </div>
                     <div className={styles.flex_item_closing}>
                         <span className={styles.span_pink}>&lt;/div&gt;</span>

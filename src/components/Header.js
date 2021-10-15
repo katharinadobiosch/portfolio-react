@@ -5,11 +5,14 @@ const Header = () => {
     return (
         <>
             <div className={styles.flex_container}>
-                <div className={styles.flex_item_left}>
-                    KATHARINA
-                    <br />
-                    <span className={styles.name_spacing}>DOBIOSCH</span>
-                </div>
+                <a className={styles.a} href="#welcome">
+                    <div className={styles.flex_item_left}>
+                        KATHARINA
+                        <br />
+                        <span className={styles.name_spacing}>DOBIOSCH</span>
+                    </div>
+                </a>
+
                 <div className={styles.flex_item_right}>
                     <HamburgerMenu />
                 </div>

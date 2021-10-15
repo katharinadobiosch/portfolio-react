@@ -20,7 +20,7 @@
     transition: color 0.3s ease;
 }
 
-.menuToggle a:hover {
+.menuToggle .a:hover {
     text-decoration-style: wavy;
     color: $orange-color;
 }
@@ -81,7 +81,7 @@
 }
 
 /*
- * But let's hide the middle one.
+ * Hide the middle one.
  */
 .menuToggle .input:checked ~ .span:nth-last-child(3) {
     opacity: 0;
@@ -89,7 +89,7 @@
 }
 
 /*
- * Oh yeah and the last one should go the other direction
+ * The last one should go the other direction
  */
 .menuToggle .input:checked ~ .span:nth-last-child(2) {
     transform: rotate(-45deg) translate(0, -1px);
@@ -97,7 +97,7 @@
 
 /*
  * Make this absolute positioned
- * at the top left of the screen
+ * at the top right of the screen
  */
 .menu {
     position: absolute;
@@ -125,6 +125,19 @@
     font-weight: bold;
     font-style: italic;
     text-align: end;
+}
+
+.icons {
+    padding: 10px 0;
+    // font-size: 22px;
+    // color: $pink-color;
+    font-weight: bold;
+    font-style: italic;
+    text-align: end;
+    color: $pink-color;
+    font-size: 4rem;
+    float: right;
+    margin-left: 2vw;
 }
 
 /*

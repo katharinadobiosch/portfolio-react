@@ -3,7 +3,7 @@ import styles from "../styles/_contact.module.scss";
 const Contact = () => {
     return (
         <>
-            <div className={styles.main}>
+            <div id="contact" className={styles.main}>
                 <div className={styles.flex_container}>
                     <div className={styles.flex_item_opening}>
                         <span className={styles.span_pink}>&lt;form</span>
@@ -14,8 +14,8 @@ const Contact = () => {
                             <input placeholder="Your name" />
                             <input placeholder="Your E-Mail" />
                             <textarea placeholder="Drop me a line :)" />
-                            <button>
-                                <span>Send</span>
+                            <button className={styles.button}>
+                                <span className={styles.span}>Send</span>
                             </button>
                         </form>
                     </div>

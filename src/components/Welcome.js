@@ -3,7 +3,7 @@ import styles from "../styles/_welcome.module.scss";
 const Welcome = () => {
     return (
         <>
-            <div className={styles.main}>
+            <div id="welcome" className={styles.main}>
                 <div className={styles.flex_container}>
                     <div className={styles.flex_item_content}>
                         <h1>
