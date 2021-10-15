@@ -1,4 +1,5 @@
 import styles from "../styles/_projects.module.scss";
+import BurgerBuilder from "../img/burger_creator.png";
 
 const Projects = () => {
     return (
@@ -17,9 +18,53 @@ const Projects = () => {
                         </div>
 
                         <div className={styles.projects_container}>
-                            <div className={styles.project_item}></div>
-                            <div className={styles.project_item}></div>{" "}
-                            <div className={styles.project_item}></div>
+                            <div className={styles.project_item}>
+                                <img src={BurgerBuilder} alt="Burger Builder" />
+                            </div>
+                            <div className={styles.description}>
+                                Biscuit lollipop jujubes ice cream cake soufflé
+                                brownie jujubes halvah. Lemon drops soufflé
+                                caramels liquorice gummi bears ice cream icing
+                                candy canes. Chupa chups chocolate bar cake
+                                bonbon gingerbread dessert donut gummies cake.
+                                Cake cupcake soufflé fruitcake sesame snaps ice
+                                cream sweet cake. Chocolate cake bonbon
+                                chocolate bar dessert biscuit. Dragée lemon
+                                drops gummies dessert chocolate bar lemon drops
+                                chocolate topping cheesecake.
+                            </div>
+
+                            <div className={styles.project_item}>
+                                <img src={BurgerBuilder} alt="Burger Builder" />
+                            </div>
+                            <div className={styles.description}>
+                                Biscuit lollipop jujubes ice cream cake soufflé
+                                brownie jujubes halvah. Lemon drops soufflé
+                                caramels liquorice gummi bears ice cream icing
+                                candy canes. Chupa chups chocolate bar cake
+                                bonbon gingerbread dessert donut gummies cake.
+                                Cake cupcake soufflé fruitcake sesame snaps ice
+                                cream sweet cake. Chocolate cake bonbon
+                                chocolate bar dessert biscuit. Dragée lemon
+                                drops gummies dessert chocolate bar lemon drops
+                                chocolate topping cheesecake.
+                            </div>
+
+                            <div className={styles.project_item}>
+                                <img src={BurgerBuilder} alt="Burger Builder" />
+                            </div>
+                            <div className={styles.description}>
+                                Biscuit lollipop jujubes ice cream cake soufflé
+                                brownie jujubes halvah. Lemon drops soufflé
+                                caramels liquorice gummi bears ice cream icing
+                                candy canes. Chupa chups chocolate bar cake
+                                bonbon gingerbread dessert donut gummies cake.
+                                Cake cupcake soufflé fruitcake sesame snaps ice
+                                cream sweet cake. Chocolate cake bonbon
+                                chocolate bar dessert biscuit. Dragée lemon
+                                drops gummies dessert chocolate bar lemon drops
+                                chocolate topping cheesecake.
+                            </div>
                         </div>
                     </div>
                     <div className={styles.flex_item_closing}>

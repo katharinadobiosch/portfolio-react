@@ -24,16 +24,30 @@
 }
 
 .project_item {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    width: 40vw;
+    height: auto;
+    // border-radius: 50%;
     margin: 2vh 2vw 2vh 2vw;
-    border: $test_border;
+    // border: $test_border;
+    transition: transform 0.5s; /* Animation */
+    overflow: hidden;
 }
 
 .project_item:hover {
-    width: 500px;
-    height: 500px;
+    transform: scale(1.5);
     background-color: orange;
     cursor: pointer;
+}
+div.project_item > img {
+    width: 40vw;
+    height: auto;
+}
+
+.description {
+    width: 40vw;
+    margin-bottom: 5vh;
+    display: block;
+    font-size: 1.1rem;
 }
