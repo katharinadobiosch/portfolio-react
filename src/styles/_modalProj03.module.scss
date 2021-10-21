@@ -1,0 +1,6 @@
+@use "variables.module" as *;
+@use "mixins" as *;
+
+.modal_container {
+    @include modal_container();
+}

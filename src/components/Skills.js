@@ -1,5 +1,7 @@
 import styles from "../styles/_skills.module.scss";
 
+
+
 const Skills = () => {
     return (
         <>
