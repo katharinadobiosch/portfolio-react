@@ -1,16 +1,24 @@
-// import React, { useState } from "react";
+import React, { useState } from "react";
 import styles from "../styles/_hamburgerMenu.module.scss";
 
 // import { HashLink as Link } from "react-router-hash-link";
 import { NavLink, Link, animateScroll as scroll } from "react-scroll";
 
-const HamburgerMenu = () => {
-    // const closeHamburger = () => {
-    //     const [isOpen, setIsOpen] = useState(false);
-    //     const toggle = () => setIsOpen(!isOpen);
-    //     const hide = () => setIsOpen(false);
-    //     const show = () => setIsOpen(true);
+const HamburgerMenu = (props) => {
+    //     if (!props.show) {
+    //         return null;
+    //     }
+
+    //     // const closeHamburger = () => {
+    //     //     const [isOpen, setIsOpen] = useState(false);
+    //     // };
+
+    //     const closeMenu = () => {
+    //         const [isOpen, setIsOpen] = useState(false);
+
+    //         setIsOpen(false);
     // };
+
     return (
         <>
             <nav role="navigation">
@@ -52,7 +60,7 @@ const HamburgerMenu = () => {
                         </a>
 
                         <a
-                            className={styles.a}
+                            // className={styles.a}
                             href="https://www.linkedin.com/in/katharina-dobiosch/"
                             target="_blank"
                             rel="noopener noreferrer"

@@ -13,3 +13,20 @@
 .flex_item_closing {
     @include sp_closing_tag();
 }
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+i {
+    font-size: 5rem;
+    margin: 3vw;
+}
+
+.running_text {
+    font-size: 1.5rem;
+    text-align: justify;
+}

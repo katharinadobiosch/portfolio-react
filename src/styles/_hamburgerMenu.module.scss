@@ -9,18 +9,30 @@
 
     z-index: 1;
 
-    -webkit-user-select: none;
-    user-select: none;
+    // -webkit-user-select: none;
+    // user-select: none;
 }
 
-.menuToggle .a {
+// .menuToggle .a {
+//     text-decoration: none;
+//     // color: $orange-color;
+
+//     transition: color 0.3s ease;
+// }
+
+// .menuToggle .a:hover {
+//     text-decoration: wavy;
+//     color: $orange-color;
+// }
+
+.a {
     text-decoration: none;
     // color: $orange-color;
 
     transition: color 0.3s ease;
 }
 
-.menuToggle .a:hover {
+.menu .li:hover {
     text-decoration-style: wavy;
     color: $orange-color;
 }
@@ -128,16 +140,15 @@
 }
 
 .icons {
-    padding: 10px 0;
+    // padding: 10px 0;
     // font-size: 22px;
     // color: $pink-color;
-    font-weight: bold;
-    font-style: italic;
+    // font-weight: bold;
     text-align: end;
-    color: $pink-color;
+    // color: $pink-color;
     font-size: 4rem;
     float: right;
-    margin-left: 2vw;
+    margin-left: 1vw;
 }
 
 /*

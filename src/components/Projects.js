@@ -54,7 +54,7 @@ const Projects = () => {
                         <ModalProj01 onClose={closeModal01} show={show01} />
                         <ModalProj02 onClose={closeModal02} show={show02} />
                         <ModalProj03 onClose={closeModal03} show={show03} />
-                        <div>
+                        <div className={styles.running_text}>
                             Here are a few projects I have worked on recently
                         </div>
 
@@ -72,7 +72,7 @@ const Projects = () => {
                             <div className={styles.description}>
                                 <a
                                     className={styles.a}
-                                    href="https://katharinadobiosch.github.io/burger-builder/"
+                                    href="https://https://katharinadobiosch.github.io/burger-builder/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
