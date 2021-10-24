@@ -18,15 +18,15 @@
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: flex-end;
+    align-items: flex-end;
     align-content: flex-start;
     // background-color: pink;
 }
 
 input,
 textarea {
-    width: 50vw;
+    width: 40vw;
     margin-bottom: 1vh;
     min-height: 3vh;
 }
