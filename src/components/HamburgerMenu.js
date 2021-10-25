@@ -10,7 +10,7 @@ const HamburgerMenu = () => {
     const closeMenu = (event) => {
         event.preventDefault();
         setShowMenu(false);
-        console.log("button was clicked");
+        console.log("menu item was clicked");
     };
 
     // if (value === true) return false;
