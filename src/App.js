@@ -24,14 +24,14 @@ const App = () => {
                 <Switch>
                     <LoadingBar />
                     <Header />
-                    {/* <Hello /> */}
-                    <Welcome />
-                    {/*<About />
-                    <Skills />
-                    <Projects />
-                    <Contact /> */}
-                    {/* <Route path="/home" component={Header}  /> */}
-                    {/* <Route path="/" component={Welcome} exact /> */}
+
+                    {/* <Welcome />  */}
+                    {/* <About /> */}
+                    {/* <Skills /> */}
+                    {/* <Projects /> */}
+                    {/* <Contact />  */}
+
+                    <Route path="/welcome" component={Welcome} exact />
                     <Route path="/about" component={About} exact />
                     <Route path="/skills" component={Skills} exact />
                     <Route path="/projects" component={Projects} exact />
