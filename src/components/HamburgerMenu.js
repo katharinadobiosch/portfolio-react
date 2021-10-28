@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
+
 import styles from "../styles/_hamburgerMenu.module.scss";
 
 // import { HashLink as Link } from "react-router-hash-link";
@@ -7,12 +9,12 @@ import styles from "../styles/_hamburgerMenu.module.scss";
 const HamburgerMenu = () => {
     const [showMenu, setShowMenu] = useState(false);
 
-   const closeMenu = (event) => {
-    event.preventDefault();
-    setShowMenu(false);
-    window.location.reload();
-    console.log("menu item was clicked!");
-  };
+    const closeMenu = (event) => {
+        event.preventDefault();
+        setShowMenu(false);
+        window.location.reload();
+        console.log("menu item was clicked!");
+    };
 
     // if (value === true) return false;
 
@@ -55,7 +57,7 @@ const HamburgerMenu = () => {
                     <span className={styles.span}></span>
 
                     <ul className={`${styles.menu} ${styles.ul}`}>
-                        <a className={styles.a} href="#about">
+                        {/* <a className={styles.a} href="/about">
                             <li
                                 className={styles.li}
                                 onClick={closeMenu}
@@ -63,7 +65,17 @@ const HamburgerMenu = () => {
                             >
                                 ::about
                             </li>
-                        </a>
+                        </a> */}
+
+                        <Link to="/about" className={styles.a}>
+                            <li
+                                className={styles.li}
+                                onClick={closeMenu}
+                                // value={true}
+                            >
+                                ::about
+                            </li>
+                        </Link>
 
                         <a className={styles.a} href="#skills">
                             <li className={styles.li} onClick={closeMenu}>
