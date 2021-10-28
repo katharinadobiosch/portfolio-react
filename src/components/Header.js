@@ -1,3 +1,4 @@
+import React from "react";
 import styles from "../styles/_header.module.scss";
 import HamburgerMenu from "./HamburgerMenu";
 

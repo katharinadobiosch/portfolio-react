@@ -1,6 +1,6 @@
 import React from "react";
 import {
-    BrowserRouter as Router,
+    Router,
     Route,
     // Redirect,
     Switch,
@@ -18,6 +18,7 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 // import HamburgerMenu from "./components/HamburgerMenu";
+import HomeComponent from "./components/HomeComponent";
 
 export const customHistory = createBrowserHistory();
 
@@ -26,20 +27,18 @@ const App = () => {
         <div>
             <Router history={customHistory}>
                 <Switch>
-                    <LoadingBar />
-                    <Header />
-
-                    {/* <Welcome />
-            <About />
-            <Skills />
-            <Projects />
-            <Contact /> */}
-
-                    <Route path="/welcome" component={Welcome} exact />
-                    <Route path="/about" component={About} exact />
-                    <Route path="/skills" component={Skills} exact />
-                    <Route path="/projects" component={Projects} exact />
-                    <Route path="/contact" component={Contact} exact />
+                    {/* <LoadingBar /> */}
+                    {/* <Header /> */}
+                    {/* <About /> */}
+                    {/* <Skills /> */}
+                    {/* <Projects /> */}
+                    {/* <Contact />  */}
+                    {/* <Route path="/" component={HomeComponent} /> */}
+                    <Route path="/" component={Welcome} />
+                    <Route path="/about" component={About} />
+                    <Route path="/skills" component={Skills} />
+                    <Route path="/projects" component={Projects} />
+                    <Route path="/contact" component={Contact} />
                 </Switch>
             </Router>
         </div>
