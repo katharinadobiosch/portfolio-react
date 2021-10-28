@@ -13,7 +13,7 @@ const Skills = () => {
                         <span className={styles.span_pink}>&gt;</span>
                     </div>
                     <div className={styles.flex_item_content}>
-                        <div className={styles.running_text} >
+                        <div className={styles.running_text}>
                             Since beginning my journey as a Web Developer nearly
                             1 year ago, I will graduate from DCI with a
                             certification in Full Stack Web Development in
@@ -21,13 +21,13 @@ const Skills = () => {
                             JavaScript. With my design background it was quite
                             easy to also understand the fundamentals of UI and
                             UX design. I also have experience in MERN Stack,
-                            working with data bases like SQLite and MySQL.
-                            Through my journey I noticed that my heart beats
-                            definitely for Frontend Development and that's the
-                            reason why I put my focus on HTML, CSS and React. I
-                            am naturally curious, and constantly learning new
-                            things. I am very excited to see what will lead me
-                            on this journey of development.
+                            working with data bases like SQLite, MySQL and
+                            MongoDB. Through my journey I noticed that my heart
+                            beats definitely for Frontend Development and that's
+                            the reason why I put my focus on HTML, CSS and
+                            React. I am naturally curious, and constantly
+                            learning new things. I am very excited to see what
+                            will lead me on this journey of development.
                         </div>
                         <div className={styles.logos}>
                             {/* <i class="fab fa-js"></i> */}
