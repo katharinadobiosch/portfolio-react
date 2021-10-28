@@ -7,11 +7,12 @@ import styles from "../styles/_hamburgerMenu.module.scss";
 const HamburgerMenu = () => {
     const [showMenu, setShowMenu] = useState(false);
 
-    const closeMenu = (event) => {
-        event.preventDefault();
-        setShowMenu(false);
-        console.log("menu item was clicked");
-    };
+   const closeMenu = (event) => {
+    event.preventDefault();
+    setShowMenu(false);
+    window.location.reload();
+    console.log("menu item was clicked!");
+  };
 
     // if (value === true) return false;
 
