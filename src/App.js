@@ -5,6 +5,8 @@ import {
     // Redirect,
     Switch,
 } from "react-router-dom";
+import { createBrowserHistory } from "history";
+
 import "./styles/app.module.scss";
 
 import LoadingBar from "./components/LoadingBar";
@@ -17,19 +19,21 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 // import HamburgerMenu from "./components/HamburgerMenu";
 
+export const customHistory = createBrowserHistory();
+
 const App = () => {
     return (
         <div>
-            <Router basename="/portfolio-react">
+            <Router history={customHistory}>
                 <Switch>
                     <LoadingBar />
                     <Header />
 
-                    {/* <Welcome />  */}
-                    {/* <About /> */}
-                    {/* <Skills /> */}
-                    {/* <Projects /> */}
-                    {/* <Contact />  */}
+                    {/* <Welcome />
+            <About />
+            <Skills />
+            <Projects />
+            <Contact /> */}
 
                     <Route path="/welcome" component={Welcome} exact />
                     <Route path="/about" component={About} exact />

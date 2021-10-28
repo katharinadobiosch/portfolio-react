@@ -7,36 +7,14 @@ import styles from "../styles/_hamburgerMenu.module.scss";
 // import { NavLink, Link, animateScroll as scroll } from "react-scroll";
 
 const HamburgerMenu = () => {
-    const [showMenu, setShowMenu] = useState(false);
 
     const closeMenu = (event) => {
         event.preventDefault();
-        setShowMenu(false);
         window.location.reload();
         console.log("menu item was clicked!");
     };
 
-    // if (value === true) return false;
-
-    // // MENU IS VISIBLE WHEN WEBSITE LOADS
-    // const [showMenu, setShowMenu] = useState(true);
-
-    // const closeMenu = (event) => {
-    //     event.preventDefault();
-    //     setShowMenu(false);
-    //     console.log("button was clicked");
-    // };
-
-    // const closeMenu = (event) => {
-    //     if (event.target.value === true) {
-    //         setShowMenu(false);
-    //         console.log("button was clicked");
-    //     }
-    // };
-
-    //     if (!props.show) {
-    //         return null;
-    //     }
+  
 
     return (
         <>
@@ -57,7 +35,7 @@ const HamburgerMenu = () => {
                     <span className={styles.span}></span>
 
                     <ul className={`${styles.menu} ${styles.ul}`}>
-                        {/* <a className={styles.a} href="/about">
+                        <a className={styles.a} href="/about">
                             <li
                                 className={styles.li}
                                 onClick={closeMenu}
@@ -65,9 +43,9 @@ const HamburgerMenu = () => {
                             >
                                 ::about
                             </li>
-                        </a> */}
+                        </a>
 
-                        <Link to="/about" className={styles.a}>
+                        {/* <Link to="/about" className={styles.a}>
                             <li
                                 className={styles.li}
                                 onClick={closeMenu}
@@ -75,7 +53,7 @@ const HamburgerMenu = () => {
                             >
                                 ::about
                             </li>
-                        </Link>
+                        </Link> */}
 
                         <a className={styles.a} href="#skills">
                             <li className={styles.li} onClick={closeMenu}>
