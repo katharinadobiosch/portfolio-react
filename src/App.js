@@ -12,6 +12,7 @@ const App = () => {
     return (
         <div>
             <LoadingBar />
+            
             <Header />
             <Welcome />
             <About />
