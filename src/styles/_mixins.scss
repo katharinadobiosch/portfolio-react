@@ -81,19 +81,16 @@
     }
 
     .modal_header {
-        padding: 10px;
+        padding: 2vh 2vw 0vh 0vw;
         // background-color: pink;
         width: 80vw;
 
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
-    }
-
-    i {
-        font-size: 2rem;
-        color: $background-color;
-        cursor: pointer;
+        font-size: 4rem;
+        // color: $background-color;
+        // cursor: pointer;
     }
 
     .modal_body {
@@ -108,5 +105,9 @@
         color: $background-color;
         // border-top: 1px solid #eee;
         // border-bottom: 1px solid #eee;
+    }
+
+    iframe {
+        border: 0.5rem solid $font-color;
     }
 }

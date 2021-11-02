@@ -22,7 +22,13 @@ const ModalProj01 = (props) => {
                         <div className={styles.modal_header}>
                             <i class="fas fa-times" onClick={props.onClose}></i>
                         </div>
-                        <div className={styles.modal_body}>BURGER BUILDER </div>
+                        <div className={styles.modal_body}>
+                            <iframe
+                                title="Burger Builder"
+                                style={{ width: "100%" }}
+                                src="https://katharinadobiosch.github.io/burger-builder"
+                            ></iframe>
+                        </div>
                     </div>
                 </div>
             </div>

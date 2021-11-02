@@ -72,11 +72,13 @@ const Projects = () => {
                             <div className={styles.description}>
                                 <a
                                     className={styles.a}
-                                    href="https://https://katharinadobiosch.github.io/burger-builder/"
+                                    href="https://katharinadobiosch.github.io/burger-builder/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
                                     BURGER BUILDER
+                                    {/* <i class="fas fa-external-link-alt" />
+                                    <i class="fab fa-github" /> */}
                                 </a>
                                 <br />
                                 Biscuit lollipop jujubes ice cream cake soufflé
