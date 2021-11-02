@@ -75,9 +75,11 @@
 
     .modal_content {
         width: 80vw;
-        height: auto;
+        height: 80vh;
         // background-color: pink;
         background-color: #fff;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+            0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
     .modal_header {
@@ -95,9 +97,10 @@
 
     .modal_body {
         padding: 10px;
-        background-color: white;
+        // background-color: white;
+        // background-color: blue;
         width: 80vw;
-        height: 60vh;
+        height: 100%;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -109,5 +112,7 @@
 
     iframe {
         border: 0.5rem solid $font-color;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+            0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 }
