@@ -1,10 +1,5 @@
 import React from "react";
-import {
-    BrowserRouter as Router,
-    Route,
-    // Redirect,
-    Switch,
-} from "react-router-dom";
+
 import "./styles/app.module.scss";
 import LoadingBar from "./components/LoadingBar";
 import Header from "./components/Header";
@@ -13,23 +8,33 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import {
+    BrowserRouter as Router,
+    Route,
+    // Redirect,
+    Switch,
+} from "react-router-dom";
+import { Link } from "react-router-dom";
+
 import ThankYou from "./components/ThankYou";
 
 const App = () => {
     return (
         <div>
             <LoadingBar />
-
             <Header />
+
             <Welcome />
             <About />
             <Skills />
             <Projects />
             <Contact />
+
             <Router>
+                {/* <Switch> */}
                 <Route path="/ThankYou" exact component={ThankYou} />
+                {/* </Switch> */}
             </Router>
-            {/* <ThankYou /> */}
         </div>
     );
 };

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styles from "../styles/_projects.module.scss";
 import BurgerBuilder from "../img/burger_creator.png";
+import BlogLayout from "../img/blog_layout.png";
 import ModalProj01 from "./ModalProj01";
 import ModalProj02 from "./ModalProj02";
 import ModalProj03 from "./ModalProj03";
@@ -64,6 +65,8 @@ const Projects = () => {
                                 // onClick={openModal}
                             >
                                 <img
+                                    // style={{ width: "80%", height: "80%" }}
+
                                     src={BurgerBuilder}
                                     alt="Burger Builder"
                                     onClick={openModal01}
@@ -121,24 +124,24 @@ const Projects = () => {
                                 <div className={styles.icons_new}>
                                     <a
                                         className={styles.a_projects}
-                                        href="https://katharinadobiosch.github.io/burger-builder/"
+                                        href="https://github.com/katharinadobiosch/workout-generator"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
                                         WORKOUT GENERATOR
                                     </a>
-                                    <a
+                                    {/* <a
                                         className={styles.a_projects_icon}
                                         href="https://katharinadobiosch.github.io/burger-builder/"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
                                         <i class="fas fa-external-link-alt" />
-                                    </a>
+                                    </a> */}
 
                                     <a
                                         className={styles.a_projects_icon}
-                                        href="https://github.com/katharinadobiosch/burger-builder"
+                                        href="https://github.com/katharinadobiosch/workout-generator"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
@@ -160,7 +163,7 @@ const Projects = () => {
 
                             <div className={styles.project_item}>
                                 <img
-                                    src={BurgerBuilder}
+                                    src={BlogLayout}
                                     alt="Burger Builder"
                                     onClick={openModal03}
                                 />
@@ -169,7 +172,7 @@ const Projects = () => {
                                 <div className={styles.icons_new}>
                                     <a
                                         className={styles.a_projects}
-                                        href="https://katharinadobiosch.github.io/burger-builder/"
+                                        href="https://github.com/katharinadobiosch/cooking-blog-layout"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
@@ -177,7 +180,7 @@ const Projects = () => {
                                     </a>
                                     <a
                                         className={styles.a_projects_icon}
-                                        href="https://katharinadobiosch.github.io/burger-builder/"
+                                        href="https://katharinadobiosch.github.io/cooking-blog-layout/"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
@@ -186,7 +189,7 @@ const Projects = () => {
 
                                     <a
                                         className={styles.a_projects_icon}
-                                        href="https://github.com/katharinadobiosch/burger-builder"
+                                        href="https://github.com/katharinadobiosch/cooking-blog-layout"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >

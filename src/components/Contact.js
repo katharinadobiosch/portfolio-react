@@ -1,4 +1,5 @@
 import styles from "../styles/_contact.module.scss";
+// import { Link } from "react-router-dom";
 
 const Contact = () => {
     return (
@@ -9,6 +10,7 @@ const Contact = () => {
                         <span className={styles.span_pink}>&lt;form</span>
                         <span className={styles.span_pink}>&gt;</span>
                     </div>
+
                     <div className={styles.flex_item_content}>
                         <form
                             action="https://usebasin.com/f/e3757595a834
@@ -32,9 +34,12 @@ const Contact = () => {
                                 type="text"
                                 placeholder="Drop me a line :)"
                             />
-                            <button type="submit" className={styles.button}>
-                                <span className={styles.span}>Send</span>
-                            </button>
+
+                            {/* <Link to="/ThankYou"> */}
+                                <button type="submit" className={styles.button}>
+                                    <span className={styles.span}>Send</span>
+                                </button>
+                            {/* </Link> */}
                         </form>
                     </div>
                     <div className={styles.flex_item_closing}>

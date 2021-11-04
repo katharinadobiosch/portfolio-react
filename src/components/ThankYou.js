@@ -15,12 +15,12 @@ const ThankYou = () => {
                     </div>
                     <div className={styles.flex_item_content}>
                         <div className={styles.running_text}>
-                            Thanks you for your message. I'll come back to you
-                            asap :)
+                            <h1>
+                                Thanks you for your message. <br />
+                                I'll come back to you asap :)
+                            </h1>
                             <div className={styles.logos}>
                                 <i class="fas fa-birthday-cake"></i>
-                                {/* <i class="fas fa-birthday-cake"></i>
-                                <i class="fas fa-birthday-cake"></i> */}
                             </div>
                         </div>
                     </div>

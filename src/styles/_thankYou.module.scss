@@ -14,8 +14,8 @@
     @include sp_closing_tag();
 }
 
-.running_text {
-    font-size: 2rem;
+.running_text h1 {
+    font-size: 3.8rem;
 }
 
 .logos {
@@ -23,11 +23,6 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    // justify-content: flex-start;
-
-    // padding-left: 10vw;
     font-size: 9rem;
-    // padding-right: 50px;
     margin-top: 3vw;
-    // background-color: tomato;
 }
