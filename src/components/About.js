@@ -43,16 +43,16 @@ const About = () => {
                             During my studies which I completed with a{" "}
                             <span className={styles.span}>design diploma</span>,
                             I worked in a shop for high-class jewelry, watches
-                            and home accessories and discovered there my passion
-                            for above all, high quality products.
+                            and home accessories and discovered my passion for -
+                            above all - high quality products there.
                             <br />
                             <br />
-                            After moving to Berlin, working for a few years in
-                            retail as a{" "}
+                            After moving to Berlin and working as a{" "}
                             <span className={styles.span}>
                                 store manager{" "}
                             </span>{" "}
-                            it was time to live my dream: I{" "}
+                            in retail for a few years, it was time to live my
+                            dream: I{" "}
                             <span className={styles.span}>
                                 opened my own store
                             </span>

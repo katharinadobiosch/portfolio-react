@@ -69,7 +69,7 @@ const HamburgerMenu = () => {
                         </a>
 
                         <a
-                            href="https://www.linkedin.com/in/katharina-dobiosch/"
+                            href="https://www.linkedin.com/in/katharinadobiosch/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
