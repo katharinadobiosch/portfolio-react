@@ -21,7 +21,11 @@ const ModalProj02 = (props) => {
                             <i class="fas fa-times" onClick={props.onClose}></i>
                         </div>
                         <div className={styles.modal_body}>
-                            WORKOUT GENERATOR{" "}
+                            <iframe
+                                title="Expenses App"
+                                // style={{ width: "80%", height: "80%" }}
+                                src="https://katharinadobiosch.github.io/Expenses-App/"
+                            ></iframe>
                         </div>
                     </div>
                 </div>

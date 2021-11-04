@@ -128,20 +128,20 @@ const Projects = () => {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
-                                        WORKOUT GENERATOR
+                                        EXPENSES APP
                                     </a>
-                                    {/* <a
+                                    <a
                                         className={styles.a_projects_icon}
-                                        href="https://katharinadobiosch.github.io/burger-builder/"
+                                        href="https://katharinadobiosch.github.io/Expenses-App/"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
                                         <i class="fas fa-external-link-alt" />
-                                    </a> */}
+                                    </a>
 
                                     <a
                                         className={styles.a_projects_icon}
-                                        href="https://github.com/katharinadobiosch/workout-generator"
+                                        href="https://github.com/katharinadobiosch/Expenses-App"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >

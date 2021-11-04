@@ -2,6 +2,8 @@ import styles from "../styles/_about.module.scss";
 
 import Header from "./Header";
 
+import CV from "../pdf/Katharina_Dobiosch_CV.pdf";
+
 const About = () => {
     return (
         <>
@@ -86,7 +88,8 @@ const About = () => {
 
                                 <span className={styles.download_icon}>
                                     <a
-                                        href="/images/myw3schoolsimage.jpg"
+                                        // href="../pdf/Katharina_Dobiosch_CV"
+                                        href={CV}
                                         download="CV Katharina Dobiosch"
                                     >
                                         <i class="fas fa-file-download"></i>
