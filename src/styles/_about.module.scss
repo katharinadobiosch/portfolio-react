@@ -19,7 +19,62 @@
     @include sp_closing_tag();
 }
 
-.running_text, .span {
+.running_text,
+.span {
     font-size: 1.5rem;
     text-align: justify;
 }
+
+.download_section {
+    // background: tomato;
+    height: 50px;
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-content: flex-end;
+}
+
+.download_icon {
+    font-size: 5rem;
+    // background-color: yellow;
+    margin-bottom: -1.5vh;
+    margin-left: 0.8vw;
+    // padding-left: 10vw;
+    // padding-bottom: 0px;
+}
+// .download {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: flex-end;
+// }
+// .download_CV {
+//     // display: flex;
+//     // flex-direction: row;
+//     font-size: 1.5rem;
+//     // padding-right: 50px;
+// }
+
+// // .download_CV,
+// .download_CV_logo {
+//     font-size: 10rem;
+//     // display: flex;
+//     // flex-direction: row;
+//     // justify-content: flex-end;
+//     // align-items: flex-end;
+//     // font-size: 9rem;
+//     // background-color: tomato;
+//     // width: 100px;
+//     // width: 100px;
+// }
+
+// .download_CV_logo {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: flex-end;
+//     font-size: 9rem;
+//     // background-color: tomato;
+//     // width: 100px;
+//     // width: 100px;
+// }

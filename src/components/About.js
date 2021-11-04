@@ -79,8 +79,35 @@ const About = () => {
                             strengths are and in which area I can use them.
                             <br />
                             <br />
+                            <div className={styles.download_section}>
+                                <span className={styles.running_text}>
+                                    Download my CV
+                                </span>
+
+                                <span className={styles.download_icon}>
+                                    <a
+                                        href="/images/myw3schoolsimage.jpg"
+                                        download="CV Katharina Dobiosch"
+                                    >
+                                        <i class="fas fa-file-download"></i>
+                                    </a>
+                                </span>
+                            </div>
+                            {/* <div>
+                                <span className={styles.download_CV}>
+                                    Download my CV
+                                </span>
+                                <a
+                                    className={styles.download_CV_logo}
+                                    href="/images/myw3schoolsimage.jpg"
+                                    download="w3logo"
+                                >
+                                    <i class="fas fa-file-download"></i>
+                                </a>
+                            </div> */}
                         </div>
                     </div>
+
                     <div className={styles.flex_item_closing}>
                         <span className={styles.span_pink}>&lt;/div&gt;</span>
                     </div>

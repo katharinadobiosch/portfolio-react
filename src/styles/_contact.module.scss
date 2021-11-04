@@ -32,12 +32,17 @@ input,
 textarea {
     width: 40vw;
     margin-bottom: 1vh;
-    min-height: 3vh;
+    min-height: 5vh;
+    color: $background-color;
+    font-size: 1.5rem;
+    padding-left: 0.5vw;
+    // font-weight: bold;
 }
 
 textarea {
-    min-height: 10vh;
+    min-height: 20vh;
     resize: none;
+    padding-top: 1vh;
     // width: 50vw;
 }
 
@@ -45,15 +50,16 @@ textarea {
     // line-height: 50px;
     text-align: center;
     cursor: pointer;
-    width: 10vw;
+    width: 8vw;
     align-self: flex-end;
     margin-right: 10vw;
-    // box-shadow: 2px 2px 5px $background-color;
+    box-shadow: 2px 2px 5px $background-color;
     // background: none;
     color: black;
     font-weight: bold;
     // color: #fff;
     transition: all 0.3s;
+    border-radius: 10%;
     // position: relative;
 }
 
@@ -61,7 +67,7 @@ textarea {
     // line-height: 50px;
     text-align: center;
     cursor: pointer;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     // width: 10vw;
     // align-self: flex-end;
     // margin-right: 20vw;
