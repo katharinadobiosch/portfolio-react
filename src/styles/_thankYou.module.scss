@@ -1,0 +1,29 @@
+// @import "./variables.module";
+@use "variables.module" as *;
+@use "mixins" as *;
+
+.main {
+    @include sp_layout();
+}
+
+.flex_item_opening {
+    @include sp_opening_tag();
+}
+
+.flex_item_closing {
+    @include sp_closing_tag();
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: flex-start;
+
+    // padding-left: 10vw;
+    font-size: 9rem;
+    // padding-right: 50px;
+    margin-top: 3vw;
+    // background-color: tomato;
+}
