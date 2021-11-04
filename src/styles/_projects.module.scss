@@ -15,12 +15,13 @@
 
 .projects_container {
     display: flex;
-    flex-flow: column nowrap;
+    flex-direction: column;
+    flex-wrap: nowrap;
     // MOBILE
-    justify-content: center;
+    justify-content: flex-start;
 
     align-items: center;
-    align-content: space-between;
+    align-content: flex-start;
 }
 
 .project_item {
@@ -49,16 +50,32 @@ div.project_item > img {
 .description {
     width: 40vw;
     margin-bottom: 5vh;
-    display: block;
+    // display: block;
     font-size: 1.5rem;
     text-align: justify;
 }
 
-.a {
+.a_projects {
     width: 40vw;
     margin-bottom: 0.001vh;
-    display: block;
     font-size: 1.5rem;
+    padding-right: 0.5vw;
+}
+
+// .a_projects_logo {
+//     font-size: 3rem;
+// }
+
+.icons_new {
+    // display: flex;
+    // // flex-direction: row;
+    // justify-content: flex-start;
+    // align-content: flex-start;
+
+    // width: 40vw;
+    // margin-bottom: 0.001vh;
+    // display: block;
+    // font-size: 1.5rem;
 }
 
 .running_text {

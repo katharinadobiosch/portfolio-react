@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <>
             <div className={styles.flex_container}>
-                <a className={styles.a} href="#welcome">
+                <a className={styles.a_header} href="#welcome">
                     <div className={styles.flex_item_left}>
                         KATHARINA
                         <br />

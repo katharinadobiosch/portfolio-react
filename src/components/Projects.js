@@ -70,16 +70,33 @@ const Projects = () => {
                                 />
                             </div>
                             <div className={styles.description}>
-                                <a
-                                    className={styles.a}
-                                    href="https://katharinadobiosch.github.io/burger-builder/"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    BURGER BUILDER
-                                    {/* <i class="fas fa-external-link-alt" />
-                                    <i class="fab fa-github" /> */}
-                                </a>
+                                <div className={styles.icons_new}>
+                                    <a
+                                        className={styles.a_projects}
+                                        href="https://katharinadobiosch.github.io/burger-builder/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        BURGER BUILDER
+                                    </a>
+                                    <a
+                                        className={styles.a_projects}
+                                        href="https://katharinadobiosch.github.io/burger-builder/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <i class="fas fa-external-link-alt" />
+                                    </a>
+
+                                    <a
+                                        className={styles.a_projects}
+                                        href="https://github.com/katharinadobiosch/burger-builder"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <i class="fab fa-github" />
+                                    </a>
+                                </div>
                                 <br />
                                 Biscuit lollipop jujubes ice cream cake soufflé
                                 brownie jujubes halvah. Lemon drops soufflé
@@ -101,6 +118,34 @@ const Projects = () => {
                                 />
                             </div>
                             <div className={styles.description}>
+                                <div className={styles.icons_new}>
+                                    <a
+                                        className={styles.a_projects}
+                                        href="https://katharinadobiosch.github.io/burger-builder/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        WORKOUT GENERATOR
+                                    </a>
+                                    <a
+                                        className={styles.a_projects}
+                                        href="https://katharinadobiosch.github.io/burger-builder/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <i class="fas fa-external-link-alt" />
+                                    </a>
+
+                                    <a
+                                        className={styles.a_projects}
+                                        href="https://github.com/katharinadobiosch/burger-builder"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <i class="fab fa-github" />
+                                    </a>
+                                </div>
+                                <br />
                                 Biscuit lollipop jujubes ice cream cake soufflé
                                 brownie jujubes halvah. Lemon drops soufflé
                                 caramels liquorice gummi bears ice cream icing
@@ -121,6 +166,34 @@ const Projects = () => {
                                 />
                             </div>
                             <div className={styles.description}>
+                                <div className={styles.icons_new}>
+                                    <a
+                                        className={styles.a_projects}
+                                        href="https://katharinadobiosch.github.io/burger-builder/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        BLOG LAYOUT
+                                    </a>
+                                    <a
+                                        className={styles.a_projects}
+                                        href="https://katharinadobiosch.github.io/burger-builder/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <i class="fas fa-external-link-alt" />
+                                    </a>
+
+                                    <a
+                                        className={styles.a_projects}
+                                        href="https://github.com/katharinadobiosch/burger-builder"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <i class="fab fa-github" />
+                                    </a>
+                                </div>
+                                <br />
                                 Biscuit lollipop jujubes ice cream cake soufflé
                                 brownie jujubes halvah. Lemon drops soufflé
                                 caramels liquorice gummi bears ice cream icing
@@ -132,6 +205,7 @@ const Projects = () => {
                                 drops gummies dessert chocolate bar lemon drops
                                 chocolate topping cheesecake.
                             </div>
+                            
                         </div>
                     </div>
                     <div className={styles.flex_item_closing}>

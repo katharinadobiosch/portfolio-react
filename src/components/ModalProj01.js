@@ -25,7 +25,7 @@ const ModalProj01 = (props) => {
                         <div className={styles.modal_body}>
                             <iframe
                                 title="Burger Builder"
-                                style={{ width: "80%", height: "80%" }}
+                                // style={{ width: "80%", height: "80%" }}
                                 src="https://katharinadobiosch.github.io/burger-builder"
                             ></iframe>
                         </div>

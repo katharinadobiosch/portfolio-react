@@ -30,35 +30,35 @@ const HamburgerMenu = () => {
 
                     <ul className={`${styles.menu} ${styles.ul}`}>
                         <span
-                            className={styles.a}
+                            className={styles.a_hamburger}
                             onClick={() => onRouteHandler("about")}
                         >
                             <li className={styles.li}>::about</li>
                         </span>
 
                         <span
-                            className={styles.a}
+                            className={styles.a_hamburger}
                             onClick={() => onRouteHandler("skills")}
                         >
                             <li className={styles.li}>::skills</li>
                         </span>
 
                         <span
-                            className={styles.a}
+                            className={styles.a_hamburger}
                             onClick={() => onRouteHandler("projects")}
                         >
                             <li className={styles.li}>::projects</li>
                         </span>
 
                         <span
-                            className={styles.a}
+                            className={styles.a_hamburger}
                             onClick={() => onRouteHandler("contact")}
                         >
                             <li className={styles.li}>::contact</li>
                         </span>
 
                         <a
-                            className={styles.a}
+                            className={styles.a_hamburger}
                             href="https://github.com/katharinadobiosch"
                             target="_blank"
                             rel="noopener noreferrer"
