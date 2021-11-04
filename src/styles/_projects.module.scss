@@ -58,27 +58,25 @@ div.project_item > img {
 .a_projects {
     width: 40vw;
     margin-bottom: 0.001vh;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     padding-right: 0.5vw;
-}
-
-// .a_projects_logo {
-//     font-size: 3rem;
-// }
-
-.icons_new {
-    // display: flex;
-    // // flex-direction: row;
-    // justify-content: flex-start;
-    // align-content: flex-start;
-
-    // width: 40vw;
-    // margin-bottom: 0.001vh;
-    // display: block;
-    // font-size: 1.5rem;
+    text-decoration: none;
+    // font-weight: bold;
 }
 
 .running_text {
     font-size: 1.5rem;
     text-align: justify;
+}
+
+.a_projects_icon {
+    // width: 40vw;
+    // margin-bottom: 0.001vh;
+    // font-size: 1.5rem;
+    padding-right: 0.5vw;
+    font-size: 2.5rem;
+}
+
+.icons_new {
+    margin-bottom: -2.5vh;
 }

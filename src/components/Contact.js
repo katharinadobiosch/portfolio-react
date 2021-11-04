@@ -10,10 +10,17 @@ const Contact = () => {
                         <span className={styles.span_pink}>&gt;</span>
                     </div>
                     <div className={styles.flex_item_content}>
-                        <form className={styles.form}>
-                            <input placeholder="Your name" />
-                            <input placeholder="Your E-Mail" />
-                            <textarea placeholder="Drop me a line :)" />
+                        <form
+                            action="https://usebasin.com/f/e3757595a834"
+                            method="POST"
+                            className={styles.form}
+                        >
+                            <input type="text" placeholder="Your name" />
+                            <input type="email" placeholder="Your E-Mail" />
+                            <textarea
+                                type="text"
+                                placeholder="Drop me a line :)"
+                            />
                             <button className={styles.button}>
                                 <span className={styles.span}>Send</span>
                             </button>
