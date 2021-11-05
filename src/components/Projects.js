@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import styles from "../styles/_projects.module.scss";
 import BurgerBuilder from "../img/burger_creator.png";
 import BlogLayout from "../img/blog_layout.png";
+import ExpensesApp from "../img/expenses_app.png";
 import ModalProj01 from "./ModalProj01";
 import ModalProj02 from "./ModalProj02";
 import ModalProj03 from "./ModalProj03";
@@ -115,8 +116,8 @@ const Projects = () => {
 
                             <div className={styles.project_item}>
                                 <img
-                                    src={BurgerBuilder}
-                                    alt="Burger Builder"
+                                    src={ExpensesApp}
+                                    alt="Expenses App"
                                     onClick={openModal02}
                                 />
                             </div>
@@ -124,11 +125,11 @@ const Projects = () => {
                                 <div className={styles.icons_new}>
                                     <a
                                         className={styles.a_projects}
-                                        href="https://github.com/katharinadobiosch/workout-generator"
+                                        href="https://github.com/katharinadobiosch/Expenses-App"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
-                                        EXPENSES APP
+                                        BEIGE EXPENSES APP
                                     </a>
                                     <a
                                         className={styles.a_projects_icon}
@@ -149,16 +150,15 @@ const Projects = () => {
                                     </a>
                                 </div>
                                 <br />
-                                Biscuit lollipop jujubes ice cream cake soufflé
-                                brownie jujubes halvah. Lemon drops soufflé
-                                caramels liquorice gummi bears ice cream icing
-                                candy canes. Chupa chups chocolate bar cake
-                                bonbon gingerbread dessert donut gummies cake.
-                                Cake cupcake soufflé fruitcake sesame snaps ice
-                                cream sweet cake. Chocolate cake bonbon
-                                chocolate bar dessert biscuit. Dragée lemon
-                                drops gummies dessert chocolate bar lemon drops
-                                chocolate topping cheesecake.
+                                Fun Fact: I started to write the code for tis
+                                project when I was in Mallorca with my sister.
+                                One day we were on the beach and next to us was
+                                a family. The mother and her children had brown
+                                hair and looked like they were kissed by the
+                                sun, she was wearing a beige bikini, they were
+                                sitting on a beige blanket and had a beige
+                                parasol. We called them the „beige family“ and I
+                                get inspired from them for my color theme.
                             </div>
 
                             <div className={styles.project_item}>

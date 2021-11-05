@@ -88,7 +88,6 @@ const About = () => {
 
                                 <span className={styles.download_icon}>
                                     <a
-                                        // href="../pdf/Katharina_Dobiosch_CV"
                                         href={CV}
                                         download="CV Katharina Dobiosch"
                                     >
