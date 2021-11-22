@@ -3,14 +3,18 @@ import styles from "../styles/_projects.module.scss";
 import BurgerBuilder from "../img/burger_creator.png";
 import BlogLayout from "../img/blog_layout.png";
 import ExpensesApp from "../img/expenses_app.png";
+import FoodOrderApp from "../img/food_order.png";
+
 import ModalProj01 from "./ModalProj01";
 import ModalProj02 from "./ModalProj02";
 import ModalProj03 from "./ModalProj03";
+import ModalProj04 from "./ModalProj04";
 
 const Projects = () => {
     const [show01, setShow01] = useState(false);
     const [show02, setShow02] = useState(false);
     const [show03, setShow03] = useState(false);
+    const [show04, setShow04] = useState(false);
 
     const openModal01 = (event) => {
         event.preventDefault();
@@ -42,6 +46,16 @@ const Projects = () => {
         setShow03(false);
     };
 
+    const openModal04 = (event) => {
+        event.preventDefault();
+        setShow04(true);
+    };
+
+    const closeModal04 = (event) => {
+        event.preventDefault();
+        setShow04(false);
+    };
+
     return (
         <>
             <div id="projects" className={styles.main}>
@@ -56,6 +70,8 @@ const Projects = () => {
                         <ModalProj01 onClose={closeModal01} show={show01} />
                         <ModalProj02 onClose={closeModal02} show={show02} />
                         <ModalProj03 onClose={closeModal03} show={show03} />
+                        <ModalProj04 onClose={closeModal04} show={show04} />
+
                         <div className={styles.running_text}>
                             Here are a few projects I have worked on recently
                         </div>
@@ -150,7 +166,7 @@ const Projects = () => {
                                     </a>
                                 </div>
                                 <br />
-                                Fun Fact: I started to write the code for tis
+                                Fun Fact: I started to write the code for this
                                 project when I was in Mallorca with my sister.
                                 One day we were on the beach and next to us was
                                 a family. The mother and her children had brown
@@ -158,7 +174,7 @@ const Projects = () => {
                                 sun, she was wearing a beige bikini, they were
                                 sitting on a beige blanket and had a beige
                                 parasol. We called them the „beige family“ and I
-                                get inspired from them for my color theme.
+                                got inspired from them for my color theme.
                             </div>
 
                             <div className={styles.project_item}>
@@ -190,6 +206,54 @@ const Projects = () => {
                                     <a
                                         className={styles.a_projects_icon}
                                         href="https://github.com/katharinadobiosch/cooking-blog-layout"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <i class="fab fa-github" />
+                                    </a>
+                                </div>
+                                <br />
+                                Biscuit lollipop jujubes ice cream cake soufflé
+                                brownie jujubes halvah. Lemon drops soufflé
+                                caramels liquorice gummi bears ice cream icing
+                                candy canes. Chupa chups chocolate bar cake
+                                bonbon gingerbread dessert donut gummies cake.
+                                Cake cupcake soufflé fruitcake sesame snaps ice
+                                cream sweet cake. Chocolate cake bonbon
+                                chocolate bar dessert biscuit. Dragée lemon
+                                drops gummies dessert chocolate bar lemon drops
+                                chocolate topping cheesecake.
+                            </div>
+
+                            <div className={styles.project_item}>
+                                <img
+                                    src={FoodOrderApp}
+                                    alt="Food Order App"
+                                    onClick={openModal04}
+                                />
+                            </div>
+                            <div className={styles.description}>
+                                <div className={styles.icons_new}>
+                                    <a
+                                        className={styles.a_projects}
+                                        href="https://github.com/katharinadobiosch/food-order-app"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        FOOD ORDER APP
+                                    </a>
+                                    <a
+                                        className={styles.a_projects_icon}
+                                        href="https://katharinadobiosch.github.io/food-order-app/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <i class="fas fa-external-link-alt" />
+                                    </a>
+
+                                    <a
+                                        className={styles.a_projects_icon}
+                                        href="https://github.com/katharinadobiosch/food-order-app"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >

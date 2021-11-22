@@ -1,0 +1,17 @@
+@use "variables.module" as *;
+@use "mixins" as *;
+
+.modal_container {
+    @include modal_container();
+}
+
+.browser_image {
+    border: 0.5rem solid $font-color;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 81%;
+    width: 80%;
+    // height: 90%;
+    // width: 80%;
+}
+
+// <ul className={`${styles.menu} ${styles.ul}`}>

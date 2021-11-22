@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "../styles/_modalProj03.module.scss";
-import BlogLayout from "../img/blog_layout.png";
 
 const ModalProj03 = (props) => {
     if (!props.show) {
