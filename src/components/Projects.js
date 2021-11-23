@@ -285,6 +285,10 @@ const Projects = () => {
 
 export default Projects;
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 631a948a83719d2c946be8bfe0226a7ad48c20e7
 // import React, { useState } from "react";
 // import styles from "../styles/_projects.module.scss";
 // import BurgerBuilder from "../img/burger_creator.png";
@@ -506,4 +510,8 @@ export default Projects;
 //     );
 // };
 
+<<<<<<< HEAD
 // export default Projects;
+=======
+// export default Projects;
+>>>>>>> 631a948a83719d2c946be8bfe0226a7ad48c20e7
