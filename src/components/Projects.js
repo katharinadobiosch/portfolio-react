@@ -141,7 +141,7 @@ const Projects = () => {
                                 <div className={styles.icons_new}>
                                     <a
                                         className={styles.a_projects}
-                                        href="https://katharinadobiosch.github.io/Expenses-App/"
+                                        href="https://katharinadobiosch.github.io/Expenses-App"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
@@ -188,7 +188,7 @@ const Projects = () => {
                                 <div className={styles.icons_new}>
                                     <a
                                         className={styles.a_projects}
-                                        href="https://katharinadobiosch.github.io/cooking-blog-layout/"
+                                        href="https://katharinadobiosch.github.io/cooking-blog-layout"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
@@ -236,7 +236,7 @@ const Projects = () => {
                                 <div className={styles.icons_new}>
                                     <a
                                         className={styles.a_projects}
-                                        href="https://katharinadobiosch.github.io/food-order-app/"
+                                        href="https://katharinadobiosch.github.io/food-order-app"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
