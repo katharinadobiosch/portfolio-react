@@ -8,13 +8,7 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-import {
-    BrowserRouter as Router,
-    Route,
-    // Redirect,
-    Switch,
-} from "react-router-dom";
-import { Link } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import ThankYou from "./components/ThankYou";
 
@@ -31,9 +25,7 @@ const App = () => {
             <Contact />
 
             <Router>
-                {/* <Switch> */}
                 <Route path="/ThankYou" exact component={ThankYou} />
-                {/* </Switch> */}
             </Router>
         </div>
     );
