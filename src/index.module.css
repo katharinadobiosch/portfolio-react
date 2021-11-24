@@ -13,4 +13,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #23262e;
 }
+
+i {
+  cursor: pointer;
+}
 /*# sourceMappingURL=index.module.css.map */
