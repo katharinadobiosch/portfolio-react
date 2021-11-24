@@ -42,6 +42,15 @@
         // min-height: 50vh;
         height: auto;
     }
+
+    @media only screen and (min-width: 769px) {
+        .flex_item_content {
+            margin: 3vh 0 0 20vw;
+            font-size: 2rem;
+            width: 60vw;
+            height: auto;
+        }
+    }
 }
 
 @mixin sp_opening_tag() {

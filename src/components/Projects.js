@@ -72,11 +72,11 @@ const Projects = () => {
                         <ModalProj03 onClose={closeModal03} show={show03} />
                         <ModalProj04 onClose={closeModal04} show={show04} />
 
-                        <div className={styles.running_text}>
-                            Here are a few projects I have worked on recently
-                        </div>
-
                         <div className={styles.projects_container}>
+                            <div className={styles.running_text}>
+                                Here are a few projects I have worked on
+                                recently
+                            </div>
                             <div
                                 className={styles.project_item}
                                 // onClick={openModal}

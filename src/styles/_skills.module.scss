@@ -35,6 +35,20 @@
     width: 80vw;
 }
 
+@media only screen and (min-width: 769px) {
+    .logos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        gap: 10vw;
+        font-size: 9rem;
+        margin-top: 3vh;
+        width: 60vw;
+    }
+}
+
 .running_text {
     font-size: 1.5rem;
     text-align: justify;

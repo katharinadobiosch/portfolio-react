@@ -82,15 +82,17 @@ const About = () => {
                             <br />
                             <br />
                             <div className={styles.download_section}>
-                                <span className={styles.running_text}>
-                                    Download my CV
-                                </span>
-
                                 <span className={styles.download_icon}>
                                     <a
                                         href={CV}
                                         download="CV Katharina Dobiosch"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
                                     >
+                                        {" "}
+                                        <span className={styles.running_text}>
+                                            Download my CV
+                                        </span>
                                         <i class="fas fa-file-download"></i>
                                     </a>
                                 </span>

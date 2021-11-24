@@ -26,68 +26,52 @@
 }
 
 .download_section {
-    // background: tomato;
     height: 50px;
-
-    // DESKTOP
-    // width: 60vw;
-
-    // MOBILE
     width: 80vw;
-
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-end;
     align-content: flex-end;
-    // border: $test_border;
 }
 
 .download_icon {
     font-size: 5rem;
-    // background-color: yellow;
     margin-bottom: -2.5vh;
-
-    // DESKTOP
-    // margin-left: 0.8vw;
-
-    // MOBILE
     margin-left: 2vw;
-
-    // padding-left: 10vw;
-    // padding-bottom: 0px;
 }
-// .download {
-//     display: flex;
-//     flex-direction: row;
-//     justify-content: flex-end;
-// }
-// .download_CV {
-//     // display: flex;
-//     // flex-direction: row;
-//     font-size: 1.5rem;
-//     // padding-right: 50px;
-// }
 
-// // .download_CV,
-// .download_CV_logo {
-//     font-size: 10rem;
-//     // display: flex;
-//     // flex-direction: row;
-//     // justify-content: flex-end;
-//     // align-items: flex-end;
-//     // font-size: 9rem;
-//     // background-color: tomato;
-//     // width: 100px;
-//     // width: 100px;
-// }
+@media only screen and (min-width: 769px) {
+    .download_section {
+        height: 50px;
+        width: 60vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-end;
+        align-content: flex-end;
+    }
 
-// .download_CV_logo {
-//     display: flex;
-//     flex-direction: row;
-//     justify-content: flex-end;
-//     font-size: 9rem;
-//     // background-color: tomato;
-//     // width: 100px;
-//     // width: 100px;
-// }
+    .download_icon {
+        font-size: 5rem;
+        margin-bottom: -2.5vh;
+        margin-left: 0.8vw;
+        padding-bottom: 0.8vh;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .download_icon a {
+        text-decoration: none;
+    }
+
+    .download_icon a span {
+        padding-right: 1vw;
+    }
+
+    .download_section .running_text:hover,
+    .download_icon i:hover {
+        color: $orange-color;
+        cursor: pointer;
+    }
+}
