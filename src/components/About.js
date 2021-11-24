@@ -89,10 +89,7 @@ const About = () => {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
-                                        {" "}
-                                        <span className={styles.running_text}>
-                                            Download my CV
-                                        </span>
+                                        Download my CV
                                         <i class="fas fa-file-download"></i>
                                     </a>
                                 </span>

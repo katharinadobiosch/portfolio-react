@@ -30,17 +30,15 @@
 
 input,
 textarea {
-    // DESKTOP
-    // width: 40vw;
-
-    // MOBILE
     width: 80vw;
 
     margin-bottom: 1vh;
     min-height: 5vh;
     color: $background-color;
     font-size: 1.5rem;
-    padding-left: 0.5vw;
+    padding-left: 1.5vw;
+    border-radius: 0px;
+    border: none;
     // font-weight: bold;
 }
 
@@ -81,4 +79,33 @@ button {
     // color: #fff;
     // transition: all 0.3s;
     // position: relative;
+}
+
+@media only screen and (min-width: 769px) {
+    .form {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        // justify-content: flex-end;
+        justify-content: center;
+
+        // align-items: flex-end;
+        align-items: center;
+
+        // align-content: flex-start;
+        // background-color: pink;
+    }
+
+    input,
+    textarea {
+        width: 40vw;
+    }
+
+    .button_container {
+        width: 40vw;
+    }
+
+    button {
+        width: 10vw;
+    }
 }

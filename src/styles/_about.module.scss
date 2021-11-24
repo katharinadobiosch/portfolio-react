@@ -38,7 +38,17 @@
 .download_icon {
     font-size: 5rem;
     margin-bottom: -2.5vh;
-    margin-left: 2vw;
+}
+.download_icon a,
+.download_icon i {
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.download_icon i {
+    // color: pink;
+    padding-left: 2vw;
 }
 
 @media only screen and (min-width: 769px) {
@@ -58,18 +68,13 @@
         margin-left: 0.8vw;
         padding-bottom: 0.8vh;
     }
-}
 
-@media only screen and (min-width: 769px) {
-    .download_icon a {
-        text-decoration: none;
+    .download_icon i {
+        // color: pink;
+        padding-left: 1vw;
     }
 
-    .download_icon a span {
-        padding-right: 1vw;
-    }
-
-    .download_section .running_text:hover,
+    .download_icon a:hover,
     .download_icon i:hover {
         color: $orange-color;
         cursor: pointer;
