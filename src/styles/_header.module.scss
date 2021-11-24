@@ -3,6 +3,7 @@
 
 .flex_container {
     background-color: $background-color;
+    // background-color: tomato;
     position: fixed;
     display: flex;
     flex-direction: row;
@@ -12,7 +13,7 @@
     align-items: flex-end;
     // align-content: stretch;
     width: 100%;
-    height: 7vh;
+    height: 8vh;
     padding: $sp_element_padding;
 }
 
@@ -23,6 +24,7 @@
     // border: $test_border;
     height: 3rem;
     width: auto;
+    padding-bottom: 5vh;
 }
 
 .name_spacing {
@@ -37,6 +39,7 @@
     // border: $test_border;
     height: 3rem;
     width: 3rem;
+    padding-bottom: 5vh;
 }
 
 .a_header {
