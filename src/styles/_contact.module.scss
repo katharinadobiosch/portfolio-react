@@ -30,7 +30,12 @@
 
 input,
 textarea {
-    width: 40vw;
+    // DESKTOP
+    // width: 40vw;
+
+    // MOBILE
+    width: 80vw;
+
     margin-bottom: 1vh;
     min-height: 5vh;
     color: $background-color;
@@ -46,21 +51,19 @@ textarea {
     // width: 50vw;
 }
 
-.button {
-    // line-height: 50px;
-    text-align: center;
+.button_container {
+    // background-color: blue;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+button {
     cursor: pointer;
-    width: 8vw;
-    align-self: flex-end;
-    margin-right: 10vw;
-    box-shadow: 2px 2px 5px $background-color;
-    // background: none;
-    color: black;
-    font-weight: bold;
-    // color: #fff;
-    transition: all 0.3s;
-    border-radius: 10%;
-    // position: relative;
+
+    width: 30vw;
+    border: none;
 }
 
 .span {

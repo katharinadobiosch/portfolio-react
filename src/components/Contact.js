@@ -36,9 +36,11 @@ const Contact = () => {
                             />
 
                             {/* <Link to="/ThankYou"> */}
-                            <button type="submit" className={styles.button}>
-                                <span className={styles.span}>Send</span>
-                            </button>
+                            <div className={styles.button_container}>
+                                <button type="submit">
+                                    <span className={styles.span}>Send</span>
+                                </button>
+                            </div>
                             {/* </Link> */}
                         </form>
                     </div>

@@ -89,7 +89,12 @@ a {
     width: 40vw;
     margin-bottom: 0.001vh;
     font-size: 1.7rem;
+    // DESKTOP
     padding-right: 0.5vw;
+
+    // MOBILE
+    padding-right: 3vw;
+
     text-decoration: none;
     // font-weight: bold;
 }
@@ -103,10 +108,15 @@ a {
     // width: 40vw;
     // margin-bottom: 0.001vh;
     // font-size: 1.5rem;
-    padding-right: 0.5vw;
+
+    // MOBILE
+    // padding-right: 0.5vw;
+
+    // // DESKTOP
+    padding-right: 2vw;
     font-size: 2.5rem;
 }
 
 .icons_new {
-    margin-bottom: -2.5vh;
+    margin-bottom: -1.5vh;
 }

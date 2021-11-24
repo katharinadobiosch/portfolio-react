@@ -18,27 +18,21 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-content: center;
+    gap: 10vw;
 
     font-size: 9rem;
     // DESKTOP
     // margin: 3vw;
 
     // MOBILE
-    margin-top: 3vh;
+    margin: 1vh 3vw 3vh 0vw;
 
-    // // MOBILE
-    // padding: 0vh 3vw 3vh 3vw;
     // border: $test_border;
 
     // MOBILE
     width: 80vw;
-}
-
-i {
-    // MOBILE
-    margin: 1vh 3vw 3vh 3vw;
 }
 
 .running_text {

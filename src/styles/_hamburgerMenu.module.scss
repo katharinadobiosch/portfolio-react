@@ -116,7 +116,13 @@
     position: absolute;
     width: 100vw;
     height: 100vh;
-    margin: -7vh 0 0 -88vw;
+    
+    // //DESKTOP
+    // margin: -7vh 0 0 -88vw;
+    // padding: 10vh 10vw 10vh 5vw;
+    
+    //MOBILE
+    margin: -7vh 0 0 -82vw;
     padding: 10vh 10vw 10vh 5vw;
     // padding-top: 125px;
 
@@ -149,7 +155,7 @@
     // color: $pink-color;
     font-size: 4rem;
     float: right;
-    margin-left: 1vw;
+    margin-left: 4vw;
 }
 
 /*
