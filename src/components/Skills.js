@@ -36,7 +36,6 @@ const Skills = () => {
                             {/* <i class="fab fa-node-js"></i> */}
 
                             {/* <i class="fab fa-node"></i> */}
-
                             <i class="fab fa-html5"></i>
 
                             <i class="fab fa-css3"></i>

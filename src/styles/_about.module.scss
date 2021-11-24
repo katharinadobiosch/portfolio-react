@@ -28,19 +28,32 @@
 .download_section {
     // background: tomato;
     height: 50px;
-    width: 60vw;
+
+    // DESKTOP
+    // width: 60vw;
+
+    // MOBILE
+    width: 80vw;
+
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-end;
     align-content: flex-end;
+    // border: $test_border;
 }
 
 .download_icon {
     font-size: 5rem;
     // background-color: yellow;
-    margin-bottom: -1.5vh;
-    margin-left: 0.8vw;
+    margin-bottom: -2.5vh;
+
+    // DESKTOP
+    // margin-left: 0.8vw;
+
+    // MOBILE
+    margin-left: 0.5vw;
+
     // padding-left: 10vw;
     // padding-bottom: 0px;
 }

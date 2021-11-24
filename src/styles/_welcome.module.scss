@@ -32,8 +32,16 @@
 .flex_item_content h1 {
     margin: 11vh 0 0 10vw;
     font-size: 3.8rem;
+    font-weight: bold;
+    // color: green;
     // border: $test_border;
-    width: 70vw;
+
+    // DESKTOP
+    // width: 70vw;
+
+    // MOBILE
+    width: 80vw;
+
     min-height: 80vh;
     line-height: 140%;
     // text-align: justify;

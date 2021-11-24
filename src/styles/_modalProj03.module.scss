@@ -2,8 +2,15 @@
 @use "mixins" as *;
 
 .modal_container {
-    @include modal_container();
+    @include modal_container_mobile();
 }
+
+@media only screen and (min-width: 769px) {
+    .modal_container {
+        @include modal_container_desktop();
+    }
+}
+
 
 .browser_image {
     border: 0.5rem solid $font-color;
